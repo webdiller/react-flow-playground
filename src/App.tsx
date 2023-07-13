@@ -1,8 +1,7 @@
+import { BasicFlow } from "./widgets/BasicFlow";
+
 function App() {
-  return (
-    <div className="min-h-screen flex justify-center items-center">
-    </div>
-  )
+  return <BasicFlow />;
 }
 
-export default App
+export default App;
